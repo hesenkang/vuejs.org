@@ -455,7 +455,7 @@ Vue.component('custom-input', {
   template: `
     <input
       v-bind:value="value"
-      v-on:input="$emit('input', $event.target.value)"
+      v-on:input="$emit('input', $event.target.value)
     >
   `
 })
